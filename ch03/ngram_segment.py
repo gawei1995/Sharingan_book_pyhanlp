@@ -5,6 +5,9 @@ from pyhanlp import *
 from ch03.demo_corpus_loader import my_cws_corups,test_data_path,ensure_data
 from ch03.msr import msr_model
 
+
+CWSEvaluator = SafeJClass('com.hankcs.hanlp.seg.common.CWSEvaluator')
+
 NatureDictionaryMaker = SafeJClass('com.hankcs.hanlp.corpus.dictionary.NatureDictionaryMaker')
 CorpusLoader = SafeJClass('com.hankcs.hanlp.corpus.document.CorpusLoader')
 WordNet = JClass('com.hankcs.hanlp.seg.common.WordNet')
